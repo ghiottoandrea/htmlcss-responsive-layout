@@ -1,3 +1,10 @@
+.debug header {
+    /* height: 100px; */
+    /* background-color: lightblue; */
+}
+
+
+/* #region Utilites */
 * {
     margin: 0;
     padding: 0;
@@ -12,3 +19,59 @@
     --layout-mark: rgba(253, 193, 95, 1);
     --layout-lighter: white;
 }
+
+.container-sm {
+    width: 90%;
+    margin: auto;
+    max-width: 432px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: ;
+}
+
+.col-4 {
+    width: calc((100%/12)*4);
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-8 {
+    width: calc((100%/12)*8);
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* #endregion Utilites */
+
+/* #region Common */
+header {
+    background-color: var(--layout-primary);
+}
+
+nav {
+    display: flex;
+    padding: 1rem 0;
+    color: var(--layout-lighter);
+    align-items: center;
+}
+
+/* #endregion Common */
+
+/* #region Header */
+.left-menu {
+    width: 50%;
+}
+
+.right-menu {
+    width: 50%;
+    text-align: end;
+    font-size: 30px
+}
+
+/* #endregion Header */
