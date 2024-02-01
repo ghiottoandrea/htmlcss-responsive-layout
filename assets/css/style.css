@@ -20,15 +20,15 @@
     --layout-lighter: white;
 }
 
-.container-sm {
-    width: 90%;
+.container {
+    width: 80%;
     margin: auto;
     max-width: 432px;
 }
 
 .row {
     display: flex;
-    flex-wrap: ;
+    flex-wrap: wrap;
 }
 
 .col-4 {
@@ -47,6 +47,34 @@
     width: 100%;
 }
 
+.card {
+    background-color: var(--layout-primary-light);
+    border-radius: 20px;
+    margin: 2rem 0 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: var(--layout-primary);
+    color: var(--layout-lighter);
+    padding: 0.5rem 3rem;
+    border-radius: 20px;
+}
+
+.card-speach, .main-card-speach {
+    color: rgb(125, 122, 122);
+    line-height: 1.7;
+    font-weight: 600;
+    font-size: 20px;
+}
+.img-width{
+    width: 100%;
+}
 /* #endregion Utilites */
 
 /* #region Common */
@@ -59,6 +87,17 @@ nav {
     padding: 1rem 0;
     color: var(--layout-lighter);
     align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--layout-dark);
+}
+
+
+.card>i {
+    font-size: 100px;
+    color: var(--layout-primary);
 }
 
 /* #endregion Common */
@@ -75,3 +114,52 @@ nav {
 }
 
 /* #endregion Header */
+
+/* #region Downoload */
+.phone-img {
+    width: 100%;
+    margin-bottom: -2rem;
+}
+
+.card-speach{
+text-align: center;
+}
+.main-card-title, .card-title{
+   color: var(--layout-primary);
+}
+.main-card-title{
+    align-self: flex-start;
+}
+/* #endregion Downoload */
+
+/* #region Strategic-plan */
+#strategic-plan{
+    background-color: var(--layout-secondary);
+    padding: 4rem 0;
+    margin: 5rem 0;
+}
+.strategic-card{
+    background-color: var(--layout-lighter);
+    text-align: center;
+}
+.strategic-title{
+    color: var(--layout-lighter);
+    font-size: 40px;
+    padding: 5rem 0 3rem;
+}
+.strategic-speach{
+line-height: 1.5;
+color: var(--layout-lighter);
+font-size: 20px;
+}
+.strategic-card-speach{
+    line-height: 1.5;
+    font-size: 20px;
+}
+.strategic-btn{
+    background-color: var(--layout-secondary);
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    font-size: 25px;
+}
+/* #endregion Strategic-plan */
