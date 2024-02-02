@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
 :root {
@@ -188,14 +189,17 @@ a {
     color: var(--layout-lighter);
     text-align: center;
 }
-.testimonials-title{
+
+.testimonials-title {
     color: var(--layout-secondary);
     font-size: 40px;
 }
+
 .testimonials-img {
     width: 100%;
     aspect-ratio: 1;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .testimonials-speach {
@@ -204,3 +208,41 @@ a {
 }
 
 /* #endregion Testimonials */
+
+/* #region work-wiyh-us */
+#work-with-us {
+    background-color: var(--layout-secondary);
+    margin-top: 7rem;
+}
+
+.title-work-with-us {
+    color: var(--layout-lighter);
+    font-size: 40px;
+    text-align: center;
+    padding: 4rem 0 2rem;
+}
+
+.card-work-with-us {
+    background-color: var(--layout-lighter);
+    color: var(--layout-secondary);
+    align-items: flex-start;
+    gap: 1.5rem;
+    
+}
+
+.numbers {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.speach-work-with-us {
+    line-height: 1.5;
+    color: grey;
+}
+
+.btn-work-with-us {
+    background-color: var(--layout-secondary);
+
+}
+
+/* #endregion work-wiyh-us */
