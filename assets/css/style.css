@@ -299,3 +299,50 @@ a {
 }
 
 /* #endregion About us */
+
+/* #region get started */
+#get-started{
+    background-color: var(--layout-secondary);
+    color: var(--layout-lighter);
+    text-align: center;
+    
+}
+.box-get-started{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+}
+.title-get-started{
+    font-size: 30px;
+}
+.mark{
+    color: var(--layout-mark);
+    font-weight: 600;
+    font-size: 60px;
+}
+.speach-get-started{
+    line-height: 1.5;
+}
+.btn-get-started{
+    background-color: var(--layout-lighter);
+    color: var(--layout-secondary);
+    padding: 1rem 5rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.copyright{
+    font-size: 15px;
+}
+.privacy{
+    color: var(--layout-lighter);
+    text-decoration: underline;
+}
+.box-get-started h4{
+    font-weight: 100;
+    font-size: 15px;
+    opacity: 0.5;
+}
+/* #endregion get started */
