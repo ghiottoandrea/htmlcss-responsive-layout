@@ -99,7 +99,9 @@ nav {
     color: var(--layout-dark);
 }
 
-
+a{
+    text-decoration: none;
+}
 .card>i {
     font-size: 100px;
     color: var(--layout-primary);
@@ -258,8 +260,8 @@ nav {
 
 .img-box {
     width: 100%;
-    position: relative;
     padding: 3rem 0 1rem;
+    position: relative;
 }
 
 .img-about-us {
@@ -267,6 +269,8 @@ nav {
     aspect-ratio: 1;
     border-radius: 50%;
     object-fit: cover;
+
+
 }
 
 .img-box i {
@@ -374,6 +378,7 @@ nav {
 
 .footer-links {
     color: var(--layout-secondary);
+    text-decoration: underline;
 }
 
 /* #endregion footer */
@@ -385,12 +390,22 @@ nav {
         width: 90%;
         margin: auto;
     }
-    .col-md-8{
-        width: calc((100%/12)*8);
-    }
     .col-md-4{
         width: calc((100% / 12)*4);
     }
+    .col-md-5{
+        width: calc((100%/12)*5);
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: calc((100%/12)*7);
+    }
+    .col-md-8{
+        width: calc((100%/12)*8);
+    }
+    
     
     .phone-img{
         width: 60%;
@@ -417,6 +432,18 @@ nav {
     .name-testimonial{
         align-items: flex-start;
         text-align: left;
+    }
+    .pd-left{
+        padding-left: 2rem;
+    }
+    .text-img-about-us{
+        font-size: 30px;
+    }
+    .img-box i{
+        right: 114px;
+    }
+    .speach-get-started{
+        padding: 0 5rem;
     }
 }
 
