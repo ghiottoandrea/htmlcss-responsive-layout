@@ -212,7 +212,8 @@ a {
 /* #region work-wiyh-us */
 #work-with-us {
     background-color: var(--layout-secondary);
-    margin-top: 7rem;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .title-work-with-us {
@@ -227,7 +228,7 @@ a {
     color: var(--layout-secondary);
     align-items: flex-start;
     gap: 1.5rem;
-    
+
 }
 
 .numbers {
@@ -246,3 +247,55 @@ a {
 }
 
 /* #endregion work-wiyh-us */
+
+/* #region About us */
+#about-us {
+    padding: 2rem 0;
+}
+
+.img-box {
+    width: 100%;
+    position: relative;
+    padding: 3rem 0 1rem;
+}
+
+.img-about-us {
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img-box i {
+    color: var(--layout-secondary);
+    font-size: 50px;
+    position: absolute;
+    right: 170px;
+}
+
+.title-about-us {
+    color: var(--layout-secondary);
+    font-size: 50px;
+    padding-top: 4rem;
+}
+
+.speach-about-us {
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.text-img-about-us {
+    color: var(--layout-secondary);
+    font-size: 35px;
+}
+
+.btn-about-us {
+    background-color: var(--layout-secondary);
+    padding: 0.5rem 1rem;
+}
+
+.btn-box {
+    padding: 2rem 0;
+}
+
+/* #endregion About us */
